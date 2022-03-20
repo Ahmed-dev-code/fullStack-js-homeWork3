@@ -1,14 +1,14 @@
-// function commonElements(arr1,arr2){
-//     var commArr =[];
+function commonElements(arr1,arr2){
+    var commArr =[];
 
-//     for(var i=0;i<arr1.length;i++){
-//         if(arr2.includes(arr1[i])){
-//             commArr.push(arr1[i]);
-//         }
-//     }
-//     return commArr;
-// }
-// console.log(commonElements([1,2,5],[20,3,2,1]));
+    for(var i=0;i<arr1.length;i++){
+        if(arr2.includes(arr1[i])){
+            commArr.push(arr1[i]);
+        }
+    }
+    return commArr;
+}
+console.log(commonElements([1,2,5],[20,3,2,1]));
 
 
 var person ={
